@@ -1,5 +1,17 @@
 import localFont from "next/font/local";
 import "./globals.css";
+import { Poppins } from 'next/font/google';
+
+const poppins = Poppins({ subsets: ['latin'], weight: ['400', '600'] }); 
+
+const Font = ({ Component, pageProps }) => {
+  return (
+    <div className={poppins.className}>
+      <Component {...pageProps} />
+    </div>
+  );
+}
+
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",

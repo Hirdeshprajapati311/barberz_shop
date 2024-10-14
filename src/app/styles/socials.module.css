@@ -1,0 +1,11 @@
+.socials{
+
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  float: right;
+  width: 100%;
+  justify-content: flex-end;
+  margin: 5px;
+  right: 15px;
+}

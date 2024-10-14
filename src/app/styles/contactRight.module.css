@@ -1,0 +1,55 @@
+
+
+.hText{
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 67px;
+  color: #D9A536;
+  text-align: center;
+}
+
+.pText{
+  font-family: 'Poppins',sans-serif;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  line-height: 33px;
+  color: white;
+  flex-wrap: wrap;
+  width: 530px;
+}
+
+.input1{
+  margin-top: 40px;
+  background-color:  #151515;
+}
+
+.inputIn{
+  background-color:  #151515;
+  border: 1px solid gray;
+  width: 270px;
+  height: 64px;
+  margin: 15px;
+  padding: 5px;
+  font-weight: 300;
+}
+
+.btnAppoinment{
+  font-weight: 500;
+  font-size: 30px;
+  width: 450px;
+  height: 97px;
+  border: 1px solid black;
+  position: relative;
+  top:70px;
+  color: white;
+  background-color: #CCA34C;
+  transition: all 0.6s ease-in-out;
+  cursor: pointer;
+}
+
+.btnAppoinment:hover{
+  background-color: #FFD700;
+  border: 1px solid white;
+}

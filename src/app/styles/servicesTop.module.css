@@ -1,0 +1,37 @@
+
+
+.hText1{
+  font-family: 'Roboto',sans-serif;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+  color: #D9A536;
+  ;
+}
+
+.hText2{
+  font-family: 'Poppins',sans-serif;
+  font-size: 55px;
+  font-weight: 600;
+  line-height: 82px;
+  color: #4A4845;
+}
+
+.linecontainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 20px 0; 
+}
+
+.line {
+  flex-grow: 1;
+  height: 2px; 
+  width: 160px;
+  background-color: #d4a448; 
+}
+
+.service{
+  background-color: #FDF8E9;
+}
+
