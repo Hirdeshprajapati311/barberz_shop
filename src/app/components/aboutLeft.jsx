@@ -14,6 +14,7 @@ export const AboutLeft = () => {
       </span>
       <Image className="mt-5" alt="barberz mustach" width={80} height={80} src="/assets/barberz.png"></Image>
 
+      {/* eslint-disable react/no-unescaped-entities */}
       <p className={styled.pText}>
       Barber is a person whose occupation is mainly to cut dress groom style and shave men&apos;s and boys&apos; hair. A barber&apos;s place of work is known as a &quot;barbershop&quot; or a &quot;barber&apos;s&quot;. Barbershops are also places of social interaction and public discourse. In some instances, barbershops are also public forums.
       </p>
