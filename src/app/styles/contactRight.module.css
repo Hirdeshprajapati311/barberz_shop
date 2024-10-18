@@ -9,6 +9,14 @@
   text-align: center;
 }
 
+@media screen and (max-width:768px) {
+  .hText{
+    font-weight: 300;
+    font-size: 21px;
+    line-height: 33px;  
+  }
+}
+
 .pText{
   font-family: 'Poppins',sans-serif;
   font-weight: 400;
@@ -20,9 +28,25 @@
   width: 530px;
 }
 
+@media screen and (max-width:768px) {
+  .pText{
+    font-weight: 200;
+    font-size: 10px;
+    line-height: 18px;
+    width: 300px;
+  }
+}
+
 .input1{
   margin-top: 40px;
   background-color:  #151515;
+}
+
+@media screen and (max-width:768px) {
+  .input1{
+    position: relative;
+    left: 50px;
+  }
 }
 
 .inputIn{
@@ -33,6 +57,14 @@
   margin: 15px;
   padding: 5px;
   font-weight: 300;
+} 
+
+@media screen and (max-width:768px) {
+  .inputIn{
+    width: 160px;
+    height: 32px;
+    margin: 6px;
+  }
 }
 
 .btnAppoinment{
@@ -49,7 +81,27 @@
   cursor: pointer;
 }
 
+@media screen and (max-width:768px) {
+  .btnAppoinment{
+    font-size: 17px;
+    width: 210px;
+    height: 51px;
+    position: relative;
+    top: 20px;
+  }
+}
+
 .btnAppoinment:hover{
   background-color: #FFD700;
   border: 1px solid white;
+}
+
+@media screen and (max-width:768px) {
+  .container{
+    width: 100%;
+    margin: 0px;
+    margin-top: 400px;
+    background-color: #151515;
+
+  }
 }

@@ -1,6 +1,6 @@
-import Link from "next/link";
 import { AboutLeft } from "../components/aboutLeft";
 import { AboutRight } from "../components/aboutRight";
+import styled from "./../styles/about.module.css"
 
 
 
@@ -9,7 +9,7 @@ import { AboutRight } from "../components/aboutRight";
 const AboutUs = () => {
   return (
     <>
-      <div className="h-100vh flex flex-row">
+      <div className={`${styled.container} h-screen flex md:justify-center flex-col md:flex-row`}>
       <AboutLeft />
       <AboutRight />
       

@@ -9,12 +9,28 @@
   ;
 }
 
+@media screen and (max-width:768px) {
+ .hText1{
+  font-size: 20px;
+  font-weight: 200;
+  line-height: 21px;
+ } 
+}
+
 .hText2{
   font-family: 'Poppins',sans-serif;
   font-size: 55px;
   font-weight: 600;
   line-height: 82px;
   color: #4A4845;
+}
+
+@media screen and (max-width:768px) {
+ .hText2{
+  font-size: 30px;
+  font-weight: 400px;
+  line-height: 47px;
+ } 
 }
 
 .linecontainer {

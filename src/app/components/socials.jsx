@@ -7,7 +7,7 @@ import styled from "./../styles/socials.module.css"
 
 export const Socials = () => {
   return (
-    <div className={`${styled.socials} space-x-4 text-white` }>
+    <div className={`${styled.socials} md:size-[2px] space-x-4 text-white` }>
       <FaFacebookF />
       <FaTwitter />
       <IoGlobeOutline />

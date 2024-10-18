@@ -2,7 +2,7 @@ import styled from "./../styles/contactRight.module.css";
 export const ContactRight = () => {
 
   return (
-    <div className="container w-[40%] flex flex-col items-center py-6 bg-[#151515]/80">
+    <div className={`${styled.container} w-[40%] relative ml-[300px] flex flex-col items-center justify-center py-6 bg-[#151515]/80`}>
       <h1 className={`${styled.hText}`}>Make An Appointment</h1>
       <p className={`${styled.pText}`}>Barber is a person whose occupation is mainly to cut dress groom</p>
 

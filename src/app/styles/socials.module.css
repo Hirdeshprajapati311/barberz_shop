@@ -9,3 +9,9 @@
   margin: 5px;
   right: 15px;
 }
+
+@media screen and (max-width:768px) {
+  .socials{
+    font-size: 10px;
+  }
+}

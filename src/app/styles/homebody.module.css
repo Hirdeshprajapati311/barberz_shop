@@ -16,6 +16,14 @@ line-height: 105px;
 color: white;
 }
 
+@media screen and (max-width:768px) {
+  .spanText{
+    font-size: 1.5rem;
+    line-height: 40px;
+    text-align: center;
+  }
+}
+
 .hText{
 font-family: 'Roboto',sans-serif;
 size: 50px;
@@ -25,6 +33,15 @@ width: 800px;
 font-size: 30px;
 display: flex;
 text-align: center;
+}
+
+@media screen and (max-width:768px) {
+  .hText{
+    font-size: 18px;
+    text-align: center;
+    width: 250px;
+    text-wrap: wrap;
+  }
 }
 
 .btnAppoinment{
@@ -39,6 +56,16 @@ text-align: center;
   background-color: #CCA34C;
   transition: all 0.6s ease-in-out;
   cursor: pointer;
+}
+
+@media screen and (max-width:768px) {
+  .btnAppoinment{
+    font-weight: 300;
+    font-size: 14px;
+    width: 200px;
+    height: 82px;
+    cursor: pointer;
+  }
 }
 
 .btnAppoinment:hover{

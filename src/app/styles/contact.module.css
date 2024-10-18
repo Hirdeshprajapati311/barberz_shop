@@ -4,3 +4,9 @@
   flex-direction: row;
   width: 100%;
 }
+
+@media screen and (max-width:768px) {
+  .contact{
+    font-size: 10px;
+  }
+}

@@ -14,8 +14,8 @@ import { ContactUs } from "./pages/contactUs";
 const Home = () => {
   return (
     <>
-      <div className="mb-[200px] h-[550px]">
-      <Image className="relative p-0 z-[-11] " src="/assets/image.png" alt="hero img" layout="fill" objectFit="cover"></Image>
+      <div className="mb-[200px] md:pb-[700px] w-full md:h-[550px] h-[550px]">
+      <Image className="relative z-[-11]" src="/assets/image.png" alt="hero img" layout="fill" objectFit="cover"></Image>
       <Index></Index>
       </div>
       <div>

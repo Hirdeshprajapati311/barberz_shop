@@ -12,7 +12,7 @@ export const ContactLeft = () => {
         <Image alt="mustach" src="/assets/mustach.png" height={55} width={55}></Image>
         <div className={styled.line}></div>
       </div>
-      <p className="text-white">Suspendisse pretium felis dolor, sed placerat diam blandit vitae. Sed eu nisl massa. Phasellus vehicula tristique orci ut ultrices. Duis eu libero augue. In vulputate sodales tempus. Phasellus dolor orci, consectetur in tincidunt eget, consectetur non orci. </p>
+      <p className={`${styled.pText} text-white`}>Suspendisse pretium felis dolor, sed placerat diam blandit vitae. Sed eu nisl massa. Phasellus vehicula tristique orci ut ultrices. Duis eu libero augue. In vulputate sodales tempus. Phasellus dolor orci, consectetur in tincidunt eget, consectetur non orci. </p>
     </div>
   );
 }

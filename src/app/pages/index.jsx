@@ -21,7 +21,6 @@ const Index = () => {
           <HomeBody></HomeBody>
         </div>
 
-        <Link href="/about"></Link>
       </div>
     </>
   );
